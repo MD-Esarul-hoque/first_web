@@ -1,4 +1,28 @@
-.ee{
-    background-color: black;
+nav{
     display: flex;
+    justify-content: space-between;
+}
+.n-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav > ul >li {
+    list-style: none;
+    margin-right: 50px;
+}
+.btn-primary {
+    border-radius: 5px;
+    background:orange;
+    border: none;
+    font-size: 20px;
+    padding: 15px 35px;
+    font-weight: 600;
+}
+.hb{
+    background: rgb(243, 236, 236);
 }
