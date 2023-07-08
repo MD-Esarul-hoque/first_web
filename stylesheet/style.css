@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -5,10 +8,13 @@ nav{
 .n-title{
     font-weight: 800;
     font-size: 45px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 nav > ul{
     display: flex;
     align-items: center;
+    margin-top: 30px; 
     
 }
 nav > ul >li {
@@ -20,9 +26,27 @@ nav > ul >li {
     background:orange;
     border: none;
     font-size: 20px;
-    padding: 15px 35px;
+    padding: 15px 25px;
     font-weight: 600;
 }
 .hb{
     background: rgb(243, 236, 236);
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.sec1{
+    display: flex;
+    height: 550px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    
+}
+.div1{
+    width: 400px;
+}
+.sec2{
+    background-color: antiquewhite;
+    margin: 80px 250px;
 }
