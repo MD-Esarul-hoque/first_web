@@ -20,6 +20,8 @@ nav > ul{
 nav > ul >li {
     list-style: none;
     margin-right: 50px;
+    font-weight: 600;
+    font-size: 20px;
 }
 .btn-primary {
     border-radius: 5px;
